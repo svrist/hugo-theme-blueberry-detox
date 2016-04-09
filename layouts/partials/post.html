@@ -45,7 +45,7 @@
 
             {{ with .Params.tags }}
             	<span class="f-post-tags"><i class="fa fa-tag"></i>
-            	{{ delimit  . ", " }}
+                {{ partial "tags" . }}
             	</span>
             {{ end }}
         </section>

@@ -16,7 +16,7 @@
             {{ end }}
             {{ with.Params.tags }}
             	&nbsp;&nbsp;<i class="fa fa-tag"></i>
-            	{{ delimit  . ", " }}
+                {{ partial "tags" . }}
             {{ end }}
         </span>
     </footer>

@@ -1,18 +1,25 @@
-name = "Detox"
+name = "MyDetox"
 license = "MIT"
-licenselink = "https://github.com/allnightgrocery/hugo-theme-blueberry-detox/blob/master/LICENSE"
-description = "Detox is a beautiful theme, originally designed by Jordan Bowman (@jrdnbwmn)."
+licenselink = "https://github.com/svrist/hugo-theme-blueberry-detox/blob/master/LICENSE.md"
+description = "MyDetox is a beautiful theme, originally designed by Jordan Bowman (@jrdnbwmn)."
 homepage = "https://github.com/allnightgrocery/hugo-theme-blueberry-detox"
 tags = ["blog", "minimal", "ghost", "white"]
-features = ["blog", "disqus", "google analytics", "pagination", "rss", "sharing options"]
-min_version = 0.14
+features = ["blog", "moot", "google analytics", "pagination", "rss", "sharing options"]
+min_version = 0.15
 
 [author]
-  name = "Andrew R. Jenkins"
-  homepage = "http://andrewrjenkins.com"
+  name = "Søren Bjerregaard Vrist"
+  homepage = "https://blog.vrist.dk"
+
 
 # If porting an existing theme
 [original]
+  name = "Andrew R. Jenkins"
+  homepage = "http://andrewrjenkins.com"
+  repo = "https://github.com/allnightgrocery/hugo-theme-blueberry-detox"
+
+# If porting an existing theme
+[originalorginal]
   name = "Jordan Bowman"
   homepage = "http://www.jrdnbwmn.com"
   repo = "https://github.com/jrdnbwmn/detox"

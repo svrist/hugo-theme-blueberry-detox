@@ -1,6 +1,33 @@
     <header id="site-header">
         <div class="container">
             <a href="{{ .Site.BaseURL }}" alt="{{ .Site.Title }}"><h1 class="blog-title heading">{{ .Site.Title }}</h1></a>
-            <p class="blog-description">{{ .Site.Params.description }}</p>
+            <p class="blog-description">{{ .Site.Params.description }}
+            <nav class="social-nav">
+                <ul class="social-nav">
+                    {{ range .Site.Menus.social }}
+                    <li class="social-item">
+                        <a href="{{ .URL }}">
+                            <span class="social-icon">
+                                <i class='fa {{ .Pre }}'></i>
+                            </span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            </p>
+            <nav class="nav">
+                <ul class="nav">
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                    {{ with .Pre }}
+                    <span
+                        class="nav-item-separator">{{ . }}</span>
+                    {{ end }}
+                    <a
+                        href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
         </div>
     </header>

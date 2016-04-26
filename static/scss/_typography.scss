@@ -48,10 +48,10 @@ $font-size-small:               ($font-size-base * 0.75);
 
 
 // Line Height
-$line-height-base:              1.65 !default;
+$line-height-base:              1.55 !default;
 
 // Bottom margin for paragraphs
-$p-margin-bottom:               1.5em;
+$p-margin-bottom:               0.75em;
 
 
 // The default is hyphenation: see _base.scss
@@ -211,7 +211,7 @@ ol {
     list-style-type: none;
     text-align: center;
     padding-left: 0;
-    padding-top: 2em;
+    padding-top: 1em;
     ul,
     ol {
         margin-bottom: 0;

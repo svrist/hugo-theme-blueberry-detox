@@ -13,27 +13,30 @@
 
 #site-header {
     text-align: center;
-    min-height: 15em;
-    padding-top: 7em;
-    margin-bottom: 9em;
-    @media (max-width: 800px) {
-        padding-top: 4em !important;
-        margin-bottom: 4em !important;
+    min-height: 7em;
+    padding-top: 4em;
+    margin-bottom: 2em;
+    @media (max-width: 900px) {
+        padding-top: 3em !important;
+        margin-bottom: 3em !important;
     }
+    background-image: url('/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .blog-title {
     text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 75px;
+    letter-spacing: 3px;
+    font-size: 65px;
 }
 
 
 .blog-description {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: $black-30;
+    color: 000;
     font-size: 80%;
 }
 

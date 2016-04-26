@@ -23,6 +23,7 @@
 
     > li {
 
+        margin-left: 25px;
         &,
         > a {
             display: inline-block;
@@ -30,4 +31,24 @@
             zoom: 1;
         }
     }
+    > ul {
+        padding-top: 1px;
+        text-align: right;
+    }
+}
+
+.social-nav {
+    @extend .nav;
+
+    > li {
+        margin-left: 5px;
+    }
+    > ul {
+        padding-top: 1px;
+        text-align: center;
+    }
+}
+
+.social-icon {
+    color: $black-50;
 }

@@ -26,12 +26,12 @@
             in {{ partial "categories" . }} 
             </p>
             {{ with .Site.Params.github_src }}
-            <div style="float: right; " class="src share">
+            <span class="src share" style="text-align: right; width: 100%">
                     <a href="https://github.com/{{ . }}/blob/master/content/{{ $.Path }}"
                         class="src" title="See the source">
                         See the source <span class="fa fa-code-fork"></span>
                    </a>
-               </div>
+               </span>
            {{ end }}
         </section>
                         
